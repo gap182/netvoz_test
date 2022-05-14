@@ -36,6 +36,7 @@ class _WelcomeViewState extends ConsumerState<WelcomeView> {
 
     return Scaffold(
       body: Stack(
+        fit: StackFit.expand,
         children: [
           Image.asset(
             assets.background,
