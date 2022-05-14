@@ -24,5 +24,9 @@
     "names": "Nombres",
     "lastNames": "Apellidos",
     "cellPhone": "Teléfono celular",
-    "createAccount": "Crear cuenta"
+    "createAccount": "Crear cuenta",
+    "emptyError": "Este campo es obligatorio",
+    "passwordInvalid": "La contraseña debe tener por lo menos\n*Un número\n*Una letra minúscula\n*Una letra mayúscula\n*8 Caracteres",
+    "emailInvalid": "Debe ser un correo electrónico válido",
+    "phoneInvalid": "Debe ser un número de celular válido"
 }

@@ -309,6 +309,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Este campo es obligatorio`
+  String get emptyError {
+    return Intl.message(
+      'Este campo es obligatorio',
+      name: 'emptyError',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La contraseña debe tener por lo menos\n*Un número\n*Una letra minúscula\n*Una letra mayúscula\n*8 Caracteres`
+  String get passwordInvalid {
+    return Intl.message(
+      'La contraseña debe tener por lo menos\n*Un número\n*Una letra minúscula\n*Una letra mayúscula\n*8 Caracteres',
+      name: 'passwordInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Debe ser un correo electrónico válido`
+  String get emailInvalid {
+    return Intl.message(
+      'Debe ser un correo electrónico válido',
+      name: 'emailInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Debe ser un número de celular válido`
+  String get phoneInvalid {
+    return Intl.message(
+      'Debe ser un número de celular válido',
+      name: 'phoneInvalid',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

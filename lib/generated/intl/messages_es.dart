@@ -30,6 +30,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "continueText": MessageLookupByLibrary.simpleMessage("Continuar"),
         "createAccount": MessageLookupByLibrary.simpleMessage("Crear cuenta"),
         "email": MessageLookupByLibrary.simpleMessage("Correo electrónico"),
+        "emailInvalid": MessageLookupByLibrary.simpleMessage(
+            "Debe ser un correo electrónico válido"),
+        "emptyError":
+            MessageLookupByLibrary.simpleMessage("Este campo es obligatorio"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("Olvidé la contraseña"),
         "hello": MessageLookupByLibrary.simpleMessage("¡Hola!"),
@@ -46,6 +50,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Ingresar sin registro"),
         "names": MessageLookupByLibrary.simpleMessage("Nombres"),
         "password": MessageLookupByLibrary.simpleMessage("Contraseña"),
+        "passwordInvalid": MessageLookupByLibrary.simpleMessage(
+            "La contraseña debe tener por lo menos\n*Un número\n*Una letra minúscula\n*Una letra mayúscula\n*8 Caracteres"),
+        "phoneInvalid": MessageLookupByLibrary.simpleMessage(
+            "Debe ser un número de celular válido"),
         "privacy": MessageLookupByLibrary.simpleMessage("Aviso de privacidad"),
         "register": MessageLookupByLibrary.simpleMessage("Regístrate"),
         "setYourData": MessageLookupByLibrary.simpleMessage(

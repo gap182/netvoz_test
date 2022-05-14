@@ -5,7 +5,7 @@ class SplashNotifier extends StateNotifier<SplashModelState> {
   SplashNotifier() : super(SplashModelState());
 
   void loaded() async {
-    await Future.delayed(const Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 3));
     state = state.copyWith(splashStatus: SplashStatus.done);
   }
 }
