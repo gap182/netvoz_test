@@ -1,24 +1,28 @@
 import 'package:flutter/rendering.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:netvoz_app/src/core/theme/colors.dart';
 
-const h1 = TextStyle(
+final h1 = TextStyle(
   color: UiColors.primaryColor,
-  fontWeight: FontWeight.bold,
-  fontSize: 28,
+  fontSize: 32.sp,
 );
 
-const h2 = TextStyle(
+final h2 = TextStyle(
   color: UiColors.secondColor,
-  fontWeight: FontWeight.bold,
-  fontSize: 23,
+  fontSize: 27.sp,
 );
 
-const h3 = TextStyle(
+final h3 = TextStyle(
   color: UiColors.secondColor,
-  fontSize: 20,
+  fontSize: 23.sp,
 );
 
-const normalText = TextStyle(
+final normalText = TextStyle(
   color: UiColors.secondColor,
-  fontSize: 18,
+  fontSize: 18.sp,
+);
+
+final smallText = TextStyle(
+  color: UiColors.secondColor,
+  fontSize: 10.sp,
 );

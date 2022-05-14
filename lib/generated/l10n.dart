@@ -160,10 +160,10 @@ class S {
     );
   }
 
-  /// `Términos y condiciones de Netvoz`
+  /// `Términos y condiciones de Netvoz.`
   String get termsNetvoz {
     return Intl.message(
-      'Términos y condiciones de Netvoz',
+      'Términos y condiciones de Netvoz.',
       name: 'termsNetvoz',
       desc: '',
       args: [],
@@ -190,10 +190,10 @@ class S {
     );
   }
 
-  /// `Términos y condiciones`
+  /// `Términos y condiciones.`
   String get terms {
     return Intl.message(
-      'Términos y condiciones',
+      'Términos y condiciones.',
       name: 'terms',
       desc: '',
       args: [],

@@ -50,9 +50,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Regístrate"),
         "setYourData": MessageLookupByLibrary.simpleMessage(
             "Ingresa tus datos y crea una cuenta"),
-        "terms": MessageLookupByLibrary.simpleMessage("Términos y condiciones"),
+        "terms":
+            MessageLookupByLibrary.simpleMessage("Términos y condiciones."),
         "termsNetvoz": MessageLookupByLibrary.simpleMessage(
-            "Términos y condiciones de Netvoz"),
+            "Términos y condiciones de Netvoz."),
         "ups": MessageLookupByLibrary.simpleMessage("¡Ups!"),
         "virtual": MessageLookupByLibrary.simpleMessage("Virtual"),
         "yourShoppingCenter":

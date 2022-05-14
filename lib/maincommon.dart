@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       designSize: const Size(360, 690),
       minTextAdapt: true,
       child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
         title: 'Netvoz App',
         localizationsDelegates: const [
           S.delegate,

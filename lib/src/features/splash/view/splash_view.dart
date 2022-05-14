@@ -25,7 +25,7 @@ class _SplashViewState extends ConsumerState<SplashView> {
 
     ref.listen<SplashModelState>(splashPod, (prevState, newState) {
       if (newState.splashStatus == SplashStatus.done) {
-        context.go('/login');
+        context.go('/welcome');
       }
     });
 

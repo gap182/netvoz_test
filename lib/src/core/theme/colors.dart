@@ -4,4 +4,5 @@ class UiColors {
   static const primaryColor = Color(0xFFAF0B6C);
   static const secondColor = Color(0xFF3D3D3D);
   static const lightGray = Color(0xFFBBBBBB);
+  static const backgroundGray = Color(0xFFF9F9F9);
 }

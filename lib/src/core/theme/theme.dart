@@ -7,4 +7,20 @@ final themData = ThemeData(
     primary: UiColors.primaryColor,
     secondary: UiColors.secondColor,
   ),
+  fontFamily: "Lato",
+  elevatedButtonTheme: ElevatedButtonThemeData(
+    style: ButtonStyle(
+      backgroundColor: MaterialStateProperty.resolveWith(
+        (states) {
+          if (states.contains(MaterialState.pressed)) {
+            return UiColors.primaryColor;
+          } else if (states.contains(MaterialState.disabled)) {
+            return UiColors.lightGray;
+          } else {
+            return null;
+          }
+        },
+      ),
+    ),
+  ),
 );
